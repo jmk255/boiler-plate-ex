@@ -12,7 +12,7 @@ const userSchema = mongoose.Schema({
   },
   password: {
     type: String,
-    minlength: 50
+    minlength: 5
   },
   role: { // 예) 넘버가 1이면 관리자고 넘버가 0이면 일반유저
     type: Number,
